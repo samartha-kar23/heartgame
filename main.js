@@ -13,7 +13,9 @@ $('#btn').click(function() {
     var gf11 = 'Minkshree Dutta';
     var gf12 = 'Minkshree dutta';
     
-	if(input_value == gf1 || gf2 || gf3 || gf4 || gf5 || gf6 || gf7 || gf8 || gf9 || gf10 || gf11 || gf12) {
+    if(input_value == gf1 || input_value == gf2 || input_value == gf3 || input_value == gf4 ||
+        input_value == gf5 || input_value == gf6 || input_value == gf7 || input_value == gf8 ||
+        input_value == gf9 || input_value == gf10 || input_value == gf11 || input_value == gf12) {
 		alert('YES, Its "'+input_value+'", You are in my heart! Mmwhaah X)');
 	} else {
 		alert('No she is not in my heart, keep trying sweetheart!');
